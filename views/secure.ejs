@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/css/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+
+    <a href="/flash">Flash</a> |
+    <a href="/no-flash">No Flash</a>
+    </p>
+
+    <% if (message) { %>
+    <p>
+      <%= message %>
+    </p>
+    <% } %>
+  </body>
+</html>
